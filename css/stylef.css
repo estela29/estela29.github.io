@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+*{
+     padding:0;
+     margin: 0;
+     box-sizing: border-box;
+}
+header, nav, main, footer{
+     background-color: #595652; 
+     color: #8B8C80; 
+     width: 100%;
+     margin-left: auto;
+     margin-right: auto;
+     padding: 50px;
+     font-family: "Libre Baskerville", serif;
+}
+header{
+    height: auto;
+    font-family: "Ballet", cursive;
+    letter-spacing: 5px;
+    color: white
+}
+
+ nav{
+     background-color: #A2A6A1; 
+     text-align: center;
+ }
+
+ nav ul li{
+     list-style-type: none;
+     display: inline-block;
+     background-color: #D8D9D7; 
+     width:10%;
+     min-width: 100px;
+     padding: 10px;
+     text-align: center;
+     border-radius: 30px;
+     /*margin-top: 5px;
+     margin-bottom: 5px;
+     margin-left: 5px;
+     margin-right: 5px;*/
+     min-width: 100px;
+     margin-bottom: 5px;
+     margin-top: 5px;
+ }
+
+nav ul li a:link, nav ul li a:visited{
+     text-decoration: none;
+     color:  black;
+ }
+nav ul li:first-child {
+    background-color:antiquewhite;
+}
+
+nav ul li:first-child a {
+    color: black; 
+}
+
+nav ul li:hover{
+    background-color: #D8D9D7;
+}
+
+section{
+    background-color: #D6D9C5; 
+     margin-top: 20px;
+     margin-bottom: 20px;
+     padding: 30px;
+     overflow-x: auto;
+}
+
+h2{
+    margin-bottom: 30px;
+   font-family: "Ballet", cursive;
+    letter-spacing: 3px;
+}
+
+h1{
+     text-align: center;
+     font-size: 48px;
+}
+
+footer{
+     text-align: center;
+     height: 48px;
+     background-color: #D8D9D7; 
+     font-size: 18px;
+}
+form{
+    width: 50%;
+    height: auto;
+    padding: 50px;
+    background-color: beige;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
+label{
+    color:dimgrey;
+    font-weight: bold;
+    font-size: 18px;
+}
+input,textarea,select{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: lightcyan;
+    color: darkred;
+    font-weight: bold;
+    font-size: 18px;
+}
+textarea{
+    padding: 20px;
+}
+input[type=submit]{
+    width: 20%;
+    padding:10px;
+    background-color: azure;
+    font-weight: bold;
+    color: grey;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    display: block;
+}
+input[type=text]:focus,input[type=password]:focus,input[type=email]:focus,input[type=textarea]:focus, input[type=select]:focus{
+    background-color: beige;
+    color: dimgrey;
+}
+input[type=radio], input[type=checkbox]{
+    width: 10%;
+}
+  footer a {
+    text-decoration: none;
+    color:  black; 
+    }
+    footer a:hover {
+    color: darkred; 
+    }

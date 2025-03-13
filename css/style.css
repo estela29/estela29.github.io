@@ -1,0 +1,172 @@
+*{
+     padding:0;
+     margin: 0;
+     box-sizing: border-box;
+}
+header, nav, main, footer{
+     background-color: #F0A04B; 
+     color: #FADA7A; 
+     width: 100%;
+     margin-left: auto;
+     margin-right: auto;
+     padding: 50px;
+}
+
+ nav{
+     background-color: #B1C29E; 
+     text-align: center;
+ }
+
+ nav ul li{
+     list-style-type: none;
+     display: inline-block;
+     background-color:   #FCE7C8; 
+     width:10%;
+     padding: 10px;
+     text-align: center;
+     border-radius: 30px;
+     min-width: 100px;
+     margin-bottom: 5px;
+     margin-top: 5px;
+ }
+
+nav ul li a:link, nav ul li a:visited{
+     text-decoration: none;
+     color:  darkgreen;
+ }
+nav ul li:first-child {
+    background-color:antiquewhite;
+}
+
+nav ul li:first-child a {
+    color: black; 
+}
+
+nav ul li:hover{
+    background-color: #FFEDFA;
+}
+
+section{
+    background-color: #E195AB; 
+     margin-top: 20px;
+     margin-bottom: 20px;
+     padding: 30px;
+     overflow-x: auto;
+}
+
+h2{
+    margin-bottom: 30px;
+}
+
+h1{
+     text-align: center;
+     font-size: 48px;
+}
+
+footer{
+     text-align: center;
+     height: 48px;
+     background-color: #626F47; 
+     font-size: 18px;
+}
+
+table{
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 30px;
+     border-spacing: 10px;
+}
+
+#tabla-1{
+     background-color: blanchedalmond; 
+     border: 3px solid brown;
+     border-spacing: 10px;
+
+}
+
+#tabla-1 th{
+     font-size: 20px;
+     background-color: navajowhite; 
+     color: deepskyblue;
+
+}
+#tabla-1 th, #tabla-1 td{
+     border: 3px solid pink;
+     padding: 10px;
+}
+
+#tabla-cebra{
+     width: 80%;    
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 30px;
+     border:
+}
+
+#tabla-cebra th{
+    background-color: rosybrown; 
+}
+
+#tabla-cebra tbody tr:nth-child(even){
+    background-color: palevioletred;
+}
+
+#tabla-cebra tbody tr:nth-child(odd){
+    background-color: aliceblue; 
+}
+
+#tabla-hover{
+    width: 70%;
+}
+
+#tabla-hover th{
+     background-color: cadetblue; 
+     color: blue;
+}
+
+#tabla-hover td, #tabla-hover th{
+     border-width: 3px;
+     border-color: mediumvioletred;
+     border-style: solid;
+     padding: 10px;
+}
+
+#tabla-hover tr:hover{
+ background-color: pink;
+ color: black;
+}
+  footer a {
+    text-decoration: none;
+    color:  black; 
+    }
+    footer a:hover {
+    color: darkred; 
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

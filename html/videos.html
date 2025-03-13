@@ -1,0 +1,116 @@
+<!--
+Facultad de Arquitectura 
+Colegio de Diseño grafico
+Diseño de Interfaces de Usuario
+Lozano Netzahualcoyotl Estela G-->
+<html>
+ <head>
+    <meta charset="UTF-8"/>
+    <title>Videos en HTML</title>
+    <link rel="stylesheet" href="../css/stylev.css" type="text/css">
+     <style type="text/css">
+         video{
+             width:80%;
+             height: auto;
+             display: block;
+             margin-left: auto;
+             margin-right: auto;
+             
+         }
+         section{
+             width: 40%;
+             height: 650px;
+             display: inline-block;
+             margin-left: 20px;
+             margin-right: 20px;
+             overflow-y: auto
+         }
+         main{
+             text-align: center;
+         }
+         iframe{
+             display:block;
+             margin-right: auto;
+             margin-left: auto;
+         }
+        </style>
+ </head>
+ <body>
+    <header>
+        <h1>VIDEOS HTML</h1>
+    </header>
+     
+     <nav>
+        <ul>
+               <li><a href="index.html">Home</a></li>
+                <li><a href="/html/mijj.html">Formatos</a></li>
+                <li><a href="/html/listas.html">Listas</a></li>
+                <li><a href="/html/menu.html">Enlaces</a></li>
+                <li><a href="/html/tablas.html">Tablas</a></li>
+                <li><a href="/html/imagenes.html">Imagenes</a></li>
+                <li><a href="/html/audio.html">Audio</a></li>
+                <li><a href="/html/videos.html">Video</a></li>
+                <li><a href="/html/formularios.html">Formularios</a></li>
+        </ul>
+    </nav>
+<main>
+<section>
+<h2>Video Simple</h2>
+    <p>commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. </p>
+    <video controls>
+    <source src="../videos/video1.mp4" type="video/mp4">
+        El navegador no soporta el video
+    </video>
+</section>
+    
+<section>
+<h2>Video con Autoplay y Muted </h2>
+    <p>commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. </p>
+    <video controls loop autoplay muted>
+    <source src="../videos/video2.mp4" type="video/mp4">
+        El navegador no soporta el video
+    </video>
+</section>
+    
+    <section>
+<h2>Video con portada</h2>
+<p>commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. </p>
+         <video controls poster="../imagenes_galaxia/imagenad.png">
+    <source src="../videos/video3.mp4" type="video/mp4">
+        El navegador no soporta el video
+    </video>
+</section>
+    
+    <section>
+<h2>Video Repositorio: Youtube</h2>
+    <p>commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. </p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/vHc3e46ahfY?si=OfiQl_mP5dj0qaCh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</section>
+    
+    <section>
+<h2>Video Repositorio: Dailymotion</h2>
+    <p>commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. </p>
+    <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+  <iframe src="https://geo.dailymotion.com/player.html?video=x8q8pye"
+    style="width:100%; height:100%; position:absolute; left:0px; top:0px; overflow:hidden; border:none;"
+    allowfullscreen
+    title="Dailymotion Video Player"
+    allow="web-share">
+  </iframe>
+</div>
+</section>
+      <section>
+          
+<h2>Video Repositorio:TED </h2>
+    <p>commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. </p>
+<div style="max-width:1024px"><div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://embed.ted.com/talks/michael_pritchard_how_to_make_filthy_water_drinkable" width="1024px" height="576px" title="How to make filthy water drinkable" style="position:absolute;left:0;top:0;width:100%;height:100%"  frameborder="0" scrolling="no" allowfullscreen onload="window.parent.postMessage('iframeLoaded', 'https://embed.ted.com')"></iframe></div></div>
+</section>
+</main>
+    <footer>
+    <h6>Realizada por Estela G Lozano Netzahualcoyotl</h6>
+         <a href="mailto:estela.lozanon@alumno.buap.mx" target="_new">Correo</a>
+        <a href="https://maps.app.goo.gl/sgvFsPASiWX7qgUv9" target="_new">Direccion</a>
+        <a href="https://wa.me/522221861016" target="_new">Whatsapp</a>
+    </footer>
+</body>
+</html>

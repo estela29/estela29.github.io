@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Doto:wght@800&display=swap');
+*{
+     padding:0;
+     margin: 0;
+     box-sizing: border-box;
+}
+header, nav, main, footer{
+     background-color: #025373; 
+     color: #593122; 
+     width: 100%;
+     margin-left: auto;
+     margin-right: auto;
+     padding: 50px;
+     font-family: "Bebas Neue", sans-serif;
+}
+header{
+    height: auto;
+    font-family: "Doto", sans-serif;
+    letter-spacing: 5px;
+    color: white
+}
+
+ nav{
+     background-color: #284011; 
+     text-align: center;
+ }
+
+ nav ul li{
+     list-style-type: none;
+     display: inline-block;
+     background-color: #735A4C; 
+     width:10%;
+     min-width: 100px;
+     padding: 10px;
+     text-align: center;
+     border-radius: 30px;
+     /*margin-top: 5px;
+     margin-bottom: 5px;
+     margin-left: 5px;
+     margin-right: 5px;*/
+     min-width: 100px;
+     margin-bottom: 5px;
+     margin-top: 5px;
+ }
+
+nav ul li a:link, nav ul li a:visited{
+     text-decoration: none;
+     color:  white;
+ }
+nav ul li:first-child {
+    background-color:antiquewhite;
+}
+
+nav ul li:first-child a {
+    color: black; 
+}
+
+nav ul li:hover{
+    background-color: #D9C3A9;
+}
+
+section{
+    background-color: #F2BE5C; 
+     margin-top: 20px;
+     margin-bottom: 20px;
+     padding: 30px;
+     overflow-x: auto;
+}
+
+h2{
+    margin-bottom: 30px;
+   font-family: "Doto", sans-serif;
+    letter-spacing: 3px;
+}
+
+h1{
+     text-align: center;
+     font-size: 48px;
+}
+
+footer{
+     text-align: center;
+     height: 48px;
+     background-color: #f2c14e; 
+     font-size: 18px;
+}
+  footer a {
+    text-decoration: none;
+    color:  black; 
+    }
+    footer a:hover {
+    color: darkred; 
+    }
